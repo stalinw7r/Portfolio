@@ -9,6 +9,7 @@ function App() {
     <>
       <div className="bg-black h-fit outfit-font">
         <Navbar />
+
         <Hero />
         <AboutMe />
       </div>

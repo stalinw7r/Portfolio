@@ -3,8 +3,8 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="text-white h-fit p-4 ">
-        <div className="border sticky border-gray-500 w-fit mx-auto h-fit rounded-3xl py-2 px-3 flex justify-center items-center gap-4">
+      <div className="text-white  p-4 flex justify-center items-center  h-[100px] w-full bg-gradient-to-t from-transparent via-black to-black ">
+        <div className="border  border-gray-500 w-fit bg-gradient-to-t from-black via-black to-transparent    mx-auto h-fit rounded-3xl  py-2 px-3 flex justify-center items-center gap-4">
           <div>
             <a href="#Mainsection">
               <svg

@@ -3,33 +3,56 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <div className="border  text-white flex-col">
+      <div className="  text-white flex-col pb-2">
         <div id="AboutMe" className="text-center mb-4">
           <h1>
+            <p className="font-light my-1 text-xl">KNOW MORE</p>
             <span className="font-medium  bg-gradient-to-r from-purple-400 via-pink-500 to-teal-300 text-transparent bg-clip-text text-5xl">
               About Me
             </span>
           </h1>
         </div>
         <div className=" mx-auto  md:container lg:container lg:w-[50%]  lg:flex">
-          <div className=" flex-1/4  border-r-1  px-2 ">
+          <div className=" flex-1/4  border-r-1 border-zinc-700  px-2 ">
             <div className="p-3 m-3 drop-shadow-md drop-shadow-gray-500 inset-shadow-lg inset-shadow-black ">
               <img
-                className="rounded-full  grayscale-40 brightness-110 contrast-120   "
+                className="rounded-full  grayscale-40 brightness-110 contrast-120 w-[200px]  mx-auto  "
                 src="https://github.com/stalinw7r.png"
                 alt="profileImage"
               />
             </div>
-            <div className="font-light text-center p-1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
-              sunt voluptatibus, aliquid quo nostrum reprehenderit. Cupiditate
-              nostrum incidunt amet explicabo asperiores autem rem consequatur
-              eius, voluptatibus fugiat, ipsa eum minus?
-              <hr className="my-2" />
+            <div className="font-light text-center flex flex-col-reverse xl:flex-col lg:flex-col p-1">
+              <div>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro sunt voluptatibus, aliquid quo nostrum reprehenderit.
+                  Cupiditate nostrum incidunt amet explicabo asperiores autem
+                  rem consequatur eius, voluptatibus fugiat, ipsa eum minus?
+                </p>
+              </div>
+              <div className="flex flex-col-reverse xl:flex-col lg:flex-col">
+                <hr className="my-2 mx-6 border-zinc-700" />
+                <div className="flex gap-2 items-center justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    className="size-4"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="m7.539 14.841.003.003.002.002a.755.755 0 0 0 .912 0l.002-.002.003-.003.012-.009a5.57 5.57 0 0 0 .19-.153 15.588 15.588 0 0 0 2.046-2.082c1.101-1.362 2.291-3.342 2.291-5.597A5 5 0 0 0 3 7c0 2.255 1.19 4.235 2.292 5.597a15.591 15.591 0 0 0 2.046 2.082 8.916 8.916 0 0 0 .189.153l.012.01ZM8 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+
+                  <p>Canada</p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className=" flex-3/4 px-5 font-light">
+          <div className=" flex-3/4 px-5 my-4 font-light">
             <div className="flex-col">
               <div>
                 <h2 className="text-xl font-bold">Tech Stack</h2>
@@ -41,7 +64,7 @@ const AboutMe = () => {
                     />
                     HTML
                   </div>
-                  <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
+                  <div className="border border-zinc-500  px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
                       width={"15px"}
@@ -74,7 +97,7 @@ const AboutMe = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                       width={"15px"}
                     />
-                    Tailwind
+                    Tailwind CSS
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
@@ -96,14 +119,14 @@ const AboutMe = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
                       width={"15px"}
                     />
-                    Express
+                    ExpressJS
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
                       width={"15px"}
                     />
-                    Mongo
+                    MongoDB
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
@@ -124,7 +147,7 @@ const AboutMe = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
                       width={"15px"}
                     />
-                    redux
+                    Redux Toolkit
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
@@ -139,14 +162,14 @@ const AboutMe = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                       width={"15px"}
                     />
-                    Github
+                    GitHub
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
                       width={"15px"}
                     />
-                    postman
+                    Postman
                   </div>
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
@@ -156,7 +179,7 @@ const AboutMe = () => {
                     Figma
                   </div>
                 </div>
-                <hr />
+                <hr className="border-zinc-700" />
               </div>
               <div className="my-3">
                 <h2 className="text-xl font-semibold">Education</h2>
@@ -184,7 +207,7 @@ const AboutMe = () => {
                     </a>
                   </div>
                 </div>
-                <hr />
+                <hr className="border-zinc-700" />
               </div>
               <div className="my-3">
                 <h2 className="text-xl font-semibold ">Other Certifications</h2>
@@ -238,15 +261,13 @@ const AboutMe = () => {
                     </div>
                   </div>
                 </div>
-                <hr />
+                <hr className="border-zinc-700" />
                 <div>
                   <a
                     href="./public/Stalin Wesley web dedfs.docx"
-                    className="inline-flex gap-2 justify-center bg-yellow-400 px-5   items-center py-1 mt-3   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
+                    className="inline-flex gap-2 justify-center bg-yellow-400 group w-full md:w-fit  px-5  items-center py-1 mt-3   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
                   >
-                    <div className="text-md text-black transform-">
-                      My resume
-                    </div>
+                    <div className="text-md text-black ">My resume</div>
                     <lord-icon
                       src="https://cdn.lordicon.com/rmkahxvq.json"
                       trigger="hover"
