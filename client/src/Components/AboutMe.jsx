@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="  text-white flex-col pb-2">
         <div id="AboutMe" className="text-center mb-4">
           <h1>
-            <p className="font-light my-1 text-xl">KNOW MORE</p>
+            <p className="font-light my-1 text-md">KNOW MORE</p>
             <span className="font-medium  bg-gradient-to-r from-purple-400 via-pink-500 to-teal-300 text-transparent bg-clip-text text-5xl">
               About Me
             </span>
