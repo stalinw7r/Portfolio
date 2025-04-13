@@ -11,7 +11,7 @@ const ContactMe = () => {
   return (
     <>
       <div ref={ref} className="  text-white mt-10 flex-col pb-2 p-3">
-        <div id="AboutMe" className="text-center mb-4">
+        <div id="ContactMe" className="text-center mb-4">
           <h1>
             <p className={`font-light my-1 text-md  `}>GET IN TOUCH</p>
             <span className="font-medium  bg-gradient-to-r from-yellow-400 via-pink-500 to-orange-300 text-transparent bg-clip-text text-5xl">

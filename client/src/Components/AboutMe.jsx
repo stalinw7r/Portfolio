@@ -36,10 +36,13 @@ const AboutMe = () => {
                 }`}
               >
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Porro sunt voluptatibus, aliquid quo nostrum reprehenderit.
-                  Cupiditate nostrum incidunt amet explicabo asperiores autem
-                  rem consequatur eius, voluptatibus fugiat, ipsa eum minus?
+                  I'm a passionate Full-Stack Developer who loves creating
+                  dynamic, user-friendly, and scalable web apps. I thrive on
+                  tackling challenges, building seamless user experiences, and
+                  constantly learning new skills to stay ahead of the curve.
+                  Right now, I’m looking for exciting opportunities where I can
+                  put my diverse background and passion for web development to
+                  good use — while making a real impact.
                 </p>
               </div>
               <div className="flex flex-col-reverse xl:flex-col lg:flex-col">
