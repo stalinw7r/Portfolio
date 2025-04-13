@@ -10,7 +10,7 @@ const ContactMe = () => {
   });
   return (
     <>
-      <div ref={ref} className="  text-white mt-10 flex-col pb-2 p-3">
+      <div ref={ref} className="  text-white my-10 flex-col pb-2 p-3 ">
         <div id="ContactMe" className="text-center mb-4">
           <h1>
             <p className={`font-light my-1 text-md  `}>GET IN TOUCH</p>
@@ -18,13 +18,13 @@ const ContactMe = () => {
               Contact Me
             </span>
           </h1>
-          <div className="container border md:w-2xl border-zinc-500 rounded-2xl mx-auto  mt-3  font-medium ">
-            <form class="max-w-3xl mx-auto  px-2  md:px-8 pt-8 rounded-2xl">
+          <div className="container border md:w-2xl lg:w-4xl border-zinc-500 rounded-2xl mx-auto  mt-3  font-medium ">
+            <form class=" mx-auto  px-2  md:px-8 pt-8 rounded-2xl">
               <div class="mb-5">
                 <input
                   type="email"
                   id="email"
-                  class=" border border-zinc-500 text-gray-300 bg-zinc-950 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
+                  class=" border border-zinc-500 text-gray-300 bg-zinc-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
                   placeholder="Your email"
                   required
                 />
@@ -33,7 +33,7 @@ const ContactMe = () => {
                 <textarea
                   id="message"
                   rows="4"
-                  class="block p-2.5 w-full text-sm text-gray-300 bg-zinc-950 border-zinc-500 rounded-lg border  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="block p-2.5 w-full text-sm text-gray-300 bg-zinc-900  border-zinc-500 rounded-lg border  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Your message"
                 ></textarea>
               </div>

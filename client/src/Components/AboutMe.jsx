@@ -17,7 +17,7 @@ const AboutMe = () => {
             </span>
           </h1>
         </div>
-        <div className=" mx-auto  md:container lg:container lg:w-[50%]  lg:flex">
+        <div className=" mx-auto  md:container lg:container lg:w-[90%] xl:w-[70%] 2xl:w-[50%] lg:flex">
           <div className=" flex-1/4  lg:border-r-1  border-zinc-700  px-2 ">
             <div className="p-3 m-3 drop-shadow-md drop-shadow-gray-500 inset-shadow-lg inset-shadow-black ">
               <img

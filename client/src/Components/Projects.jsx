@@ -12,7 +12,7 @@ const Projects = () => {
             </span>
           </h1>
         </div>
-        <div className=" p-3  mx-auto lg:container md:px-8 lg:w-[60%]">
+        <div className=" p-3  mx-auto lg:container md:px-1 lg:w-[90%] xl:w-[80%] 2xl:w-[60%] ">
           <div
             id="card"
             className=" md:w-[90%] border border-zinc-500 mx-auto h-full pb-3 rounded-2xl flex-col"
@@ -140,7 +140,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className=" p-3  mx-auto lg:container md:px-8 lg:w-[60%]">
+        <div className=" p-3  mx-auto lg:container md:px-1 lg:w-[90%] xl:w-[80%] 2xl:w-[60%]">
           <div
             id="card"
             className=" md:w-[90%] border border-zinc-500 mx-auto h-full pb-3 rounded-2xl flex-col"
@@ -268,7 +268,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className=" p-3  mx-auto lg:container md:px-8 lg:w-[60%]">
+        <div className=" p-3  mx-auto lg:container md:px-1 lg:w-[90%] xl:w-[80%] 2xl:w-[60%]">
           <div
             id="card"
             className=" md:w-[90%] border border-zinc-500 mx-auto h-full pb-3 rounded-2xl flex-col"
@@ -377,7 +377,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className=" p-3  mx-auto lg:container md:px-8 lg:w-[60%]">
+        <div className=" p-3  mx-auto lg:container md:px-1 lg:w-[90%] xl:w-[80%] 2xl:w-[60%]">
           <div
             id="card"
             className=" md:w-[90%] border border-zinc-500 mx-auto h-full pb-3 rounded-2xl flex-col"
@@ -452,7 +452,13 @@ const Projects = () => {
                 </div>
                 <div className="flex my-5 gap-3">
                   <div className="border font-medium transition-transform hover:translate-0.5 duration-200 ease-in-out border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl hover:bg-zinc-800 gap-1">
-                    GitHub
+                    <a
+                      href="https://github.com/stalinw7r/Portfolio"
+                      target="_blank"
+                    >
+                      GitHub
+                    </a>
+
                     <img
                       className="invert"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
@@ -460,9 +466,7 @@ const Projects = () => {
                     />
                   </div>
                   <div className="border font-medium transition-transform hover:translate-0.5  hover:bg-green-700 duration-200 ease-in-out group border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl  gap-1">
-                    <a href="#" target="_blank">
-                      Live Site
-                    </a>
+                    <a href="#Mainsection">Live Site</a>
 
                     <div>
                       <svg
