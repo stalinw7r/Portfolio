@@ -1,19 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 const AboutMe = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+  });
+
   return (
     <>
       <div className="  text-white flex-col pb-2">
-        <div id="AboutMe" className="text-center mb-4">
+        <div id="AboutMe" className="text-center mb-4 ">
           <h1>
-            <p className="font-light my-1 text-md">KNOW MORE</p>
-            <span className="font-medium  bg-gradient-to-r from-purple-400 via-pink-500 to-teal-300 text-transparent bg-clip-text text-5xl">
+            <p className="font-light my-1 ">KNOW MORE</p>
+            <span className="font-medium translate-2.5  bg-gradient-to-r from-purple-400 via-pink-500 to-teal-300 text-transparent bg-clip-text text-5xl">
               About Me
             </span>
           </h1>
         </div>
         <div className=" mx-auto  md:container lg:container lg:w-[50%]  lg:flex">
-          <div className=" flex-1/4  border-r-1 border-zinc-700  px-2 ">
+          <div className=" flex-1/4  lg:border-r-1  border-zinc-700  px-2 ">
             <div className="p-3 m-3 drop-shadow-md drop-shadow-gray-500 inset-shadow-lg inset-shadow-black ">
               <img
                 className="rounded-full  grayscale-40 brightness-110 contrast-120 w-[200px]  mx-auto  "
@@ -21,8 +26,15 @@ const AboutMe = () => {
                 alt="profileImage"
               />
             </div>
-            <div className="font-light text-center flex flex-col-reverse xl:flex-col lg:flex-col p-1">
-              <div>
+            <div
+              ref={ref}
+              className={`font-light text-center flex flex-col-reverse xl:flex-col lg:flex-col p-1 `}
+            >
+              <div
+                className={`transition-opacity delay-100 duration-300 ease-in ${
+                  inView ? "md:opacity-100" : "md:opacity-20"
+                }`}
+              >
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Porro sunt voluptatibus, aliquid quo nostrum reprehenderit.
@@ -56,7 +68,12 @@ const AboutMe = () => {
             <div className="flex-col">
               <div>
                 <h2 className="text-xl font-bold">Tech Stack</h2>
-                <div className="flex flex-wrap p-2 mt-2 mb-3 gap-2">
+                <div
+                  ref={ref}
+                  className={`flex flex-wrap p-2 mt-2 mb-3 gap-2 transition-transform delay-300 duration-400 ease-in ${
+                    inView ? "translate-x-0" : "translate-x-4"
+                  }`}
+                >
                   <div className="border border-zinc-500 px-2 flex justify-center items-center rounded-2xl hover:-rotate-7 duration-200 gap-1">
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
@@ -183,7 +200,12 @@ const AboutMe = () => {
               </div>
               <div className="my-3">
                 <h2 className="text-xl font-semibold">Education</h2>
-                <div className="flex-col mb-3 p-2">
+                <div
+                  ref={ref}
+                  className={`flex-col mb-3 p-2 transition-transform delay-300 duration-400 ease-in ${
+                    inView ? "translate-y-0" : "translate-y-4"
+                  }`}
+                >
                   <h3>Bachelors Degree (SK University)</h3>
                   <p>World Education Services</p>
                   <div className=" group mt-1 border hover:border-white border-zinc-500 px-2 w-fit  rounded-2xl">
@@ -211,7 +233,12 @@ const AboutMe = () => {
               </div>
               <div className="my-3">
                 <h2 className="text-xl font-semibold ">Other Certifications</h2>
-                <div className=" flex flex-col md:flex-row xl:flex-row">
+                <div
+                  ref={ref}
+                  className={`flex flex-col md:flex-row xl:flex-row transition-transform delay-300 duration-400 ease-in ${
+                    inView ? "translate-x-0" : "-translate-y-4"
+                  }`}
+                >
                   <div className="flex-col mb-1 p-2">
                     <h3>Business Analyst Certification</h3>
                     <div className=" group mt-1 border hover:border-white border-zinc-500 px-2 w-fit  rounded-2xl">
@@ -262,12 +289,12 @@ const AboutMe = () => {
                   </div>
                 </div>
                 <hr className="border-zinc-700" />
-                <div>
+                <div className="flex ">
                   <a
                     href="./public/Stalin Wesley web dedfs.docx"
-                    className="inline-flex gap-2 justify-center bg-yellow-400 group w-full md:w-fit  px-5  items-center py-1 mt-3   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
+                    className="inline-flex gap-2 justify-center  bg-yellow-400 group w-full md:w-fit  px-5  items-center py-1 mt-5   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
                   >
-                    <div className="text-md text-black ">My resume</div>
+                    <div className="text-md text-black  ">My resume</div>
                     <lord-icon
                       src="https://cdn.lordicon.com/rmkahxvq.json"
                       trigger="hover"

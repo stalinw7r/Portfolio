@@ -1,6 +1,9 @@
 import React from "react";
 
 const Navbar = () => {
+  const sendEmail = () => {
+    window.location.href = "mailto:stalinwesley1193@gmail.com";
+  };
   return (
     <>
       <div className="text-white  p-4 flex justify-center items-center  h-[100px] w-full bg-gradient-to-t from-transparent via-black to-black ">
@@ -50,7 +53,7 @@ const Navbar = () => {
               </svg>
             </a>
           </div>
-          <div>
+          <div onClick={sendEmail}>
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
