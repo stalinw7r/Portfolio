@@ -1,4 +1,8 @@
 import React from "react";
+import NotesAppImage from "../assets/Notesapp.png";
+import WeatherAppImage from "../assets/weatherapp.png";
+import DashdealImage from "../assets/dashdeal.png";
+import PortfolioImage from "../assets/myPortfolio.png";
 
 const Projects = () => {
   return (
@@ -132,8 +136,8 @@ const Projects = () => {
               </div>
               <div id="projectImage" className="p-2 md:flex-1/2 ">
                 <img
-                  src="./src/assets/Notesapp.png"
-                  alt=""
+                  src={NotesAppImage}
+                  alt="Notes Project Image"
                   className="w-[100%] md:w-[100%] rounded-2xl"
                 />
               </div>
@@ -260,8 +264,8 @@ const Projects = () => {
               </div>
               <div id="projectImage" className="p-2 md:flex-1/2 ">
                 <img
-                  src="./src/assets/weatherapp.png"
-                  alt=""
+                  src={WeatherAppImage}
+                  alt="WeatherAlerts Project Image"
                   className="w-[100%] md:w-[100%] rounded-2xl"
                 />
               </div>
@@ -369,8 +373,8 @@ const Projects = () => {
               </div>
               <div id="projectImage" className="p-2 md:flex-1/2 ">
                 <img
-                  src="./src/assets/dashdeal.png"
-                  alt=""
+                  src={DashdealImage}
+                  alt="Dashdeal Project Image"
                   className="w-[100%] md:w-[100%] rounded-2xl"
                 />
               </div>
@@ -484,8 +488,8 @@ const Projects = () => {
               </div>
               <div id="projectImage" className="p-2 md:flex-1/2 ">
                 <img
-                  src="./src/assets/myPortfolio.png"
-                  alt=""
+                  src={PortfolioImage}
+                  alt="Portfolio Project Image"
                   className="w-[100%] md:w-[100%] rounded-2xl "
                 />
               </div>

@@ -54,7 +54,7 @@ const ContactMe = () => {
                 type="submit"
                 className="text-gray-300 md:w-full border group border-zinc-500  hover:border-zinc-300 hover:text-white font-light rounded-lg text-sm w-full sm:w-auto  px-5 py-2.5 text-center "
               >
-                "Send me an email {inView}"
+                Send me an email
               </button>
             </div>
           </div>
