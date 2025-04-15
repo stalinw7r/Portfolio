@@ -294,10 +294,10 @@ const AboutMe = () => {
                 <hr className="border-zinc-700" />
                 <div className="flex ">
                   <a
-                    href="./public/Stalin Wesley web dedfs.docx"
+                    href="./public/StalinWesley_FSD_2025.pdf"
                     className="inline-flex gap-2 justify-center  bg-yellow-400 group w-full md:w-fit  px-5  items-center py-1 mt-5   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
                   >
-                    <div className="text-md text-black  ">My resume</div>
+                    <div className="text-md text-black">My resume</div>
                     <lord-icon
                       src="https://cdn.lordicon.com/rmkahxvq.json"
                       trigger="hover"

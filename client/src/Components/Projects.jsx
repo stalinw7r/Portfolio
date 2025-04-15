@@ -116,7 +116,10 @@ const Projects = () => {
                     />
                   </div>
                   <div className="border font-medium transition-transform hover:translate-0.5  hover:bg-green-700 duration-200 ease-in-out group border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl  gap-1">
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://qwiknotes.stalinwesley.ca/"
+                      target="_blank"
+                    >
                       Live Site
                     </a>
 
@@ -244,7 +247,10 @@ const Projects = () => {
                     />
                   </div>
                   <div className="border font-medium transition-transform hover:translate-0.5  hover:bg-green-700 duration-200 ease-in-out group border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl  gap-1">
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://weatherapp.stalinwesley.ca/"
+                      target="_blank"
+                    >
                       Live Site
                     </a>
 
@@ -344,7 +350,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="flex my-5 gap-3">
-                  <div className="border font-medium transition-transform hover:translate-0.5 duration-200 ease-in-out border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl hover:bg-zinc-800 gap-1">
+                  <div className="border font-medium transition-transform hover:translate-0.5 duration-200 ease-in-out border-zinc-500 px-4 p-2 flex justify-center items-center rounded-2xl hover:bg-zinc-800 gap-1 ">
                     GitHub
                     <img
                       className="invert"
