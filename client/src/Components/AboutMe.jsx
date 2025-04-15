@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
+import Resume from "../assets/StalinWesley_FSD_2025.pdf";
 
 const AboutMe = () => {
   const { ref, inView } = useInView({
@@ -294,7 +295,8 @@ const AboutMe = () => {
                 <hr className="border-zinc-700" />
                 <div className="flex ">
                   <a
-                    href="./public/StalinWesley_FSD_2025.pdf"
+                    href="#"
+                    download={Resume}
                     className="inline-flex gap-2 justify-center  bg-yellow-400 group w-full md:w-fit  px-5  items-center py-1 mt-5   text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
                   >
                     <div className="text-md text-black">My resume</div>

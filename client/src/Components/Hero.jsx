@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import Resume from "../assets/StalinWesley_FSD_2025.pdf";
 
 const Hero = () => {
   const sendEmail = () => {
@@ -34,7 +35,8 @@ const Hero = () => {
           </a>
 
           <a
-            href="./public/StalinWesley_FSD_2025.pdf"
+            href="#"
+            download={Resume}
             className="inline-flex gap-2 justify-center  items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-4xl border border-gray-500  hover:border-zinc-300 duration-100"
           >
             <div className="text-lg">My resume</div>
